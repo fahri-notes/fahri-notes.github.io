@@ -1,0 +1,144 @@
+body{
+    background-color: darkcyan;
+    user-select: none;
+}
+
+header{
+    text-align: center;
+}
+
+#judul{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: aqua;
+    margin-bottom: 0%;
+    font-variant: small-caps;
+    padding-bottom: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a:hover{
+    color: rgb(66, 145, 145);
+    font-weight: bolder;
+}
+
+#dua{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: red;
+    background-color: aqua;
+}
+
+#header > p, h3{
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+#header > p{
+    padding-top: 10px;
+}
+
+h3{
+    font-variant: small-caps;
+    font-size: larger;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 10px;
+}
+
+.halaman > h2{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#jadwal{
+    background-color: orange;
+}
+
+.jadwal{
+    border:black;
+    /* text-align: center; */
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td{
+    text-align: center;
+    padding: 15px;
+}
+
+.jadwal tr:nth-child(even){
+    background-color: #d2d2d2;
+}
+
+#hari{
+    background-color: wheat;
+}
+
+.halaman{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px;
+    padding-top:5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+#data{
+    word-spacing: 2em;
+    text-align: left;
+}
+
+.data{
+    padding-top: 10px;
+}
+
+.profil{
+    float: right;
+    width: 25%;
+    padding-left:20px;
+}
+
+.isi{
+    float: left;
+    width: 75%;
+    text-align: justify;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.foto{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+h4{
+    text-align: center;
+    font-size: larger;
+}
+footer{
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px){
+    .isi{
+        width: 100%;
+        padding: 0;
+    }
+}
+
